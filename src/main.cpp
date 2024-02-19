@@ -2,22 +2,23 @@
 #include <filesystem>
 #include <format>
 namespace fs = std::filesystem;
-std::string romPath = "D:\\roms\\Persona Q - Shadow of the Labyrinth (Europe).3ds";
 
-const std::string romExtensions[]{".nds",".3ds",".gb",".gbc",".gba",".n64",".iso",".rvz"};
+std::vector<std::string> romPaths{};
+
 #define arraySize(x) sizeof(x)/sizeof(x[0])
-constexpr int romExtensionsSize = arraySize(romExtensions);
 
 static inline void getRoms(std::string romPath){
+
+    const std::string romExtensions[]{ ".nds",".3ds",".gb",".gbc",".gba",".n64",".iso",".rvz" };
+    constexpr int romExtensionsSize = arraySize(romExtensions);
+
     for (const auto& dirEntry : fs::recursive_directory_iterator(romPath, fs::directory_options::skip_permission_denied)) {
-        try {
-            for (short int i = 0; i < romExtensionsSize; i++)
-                if (!strcmp(dirEntry.path().string().substr(dirEntry.path().string().find_last_of(".")).c_str(), romExtensions[i].c_str()))
-                    std::cout << dirEntry.path().string() << '\n';
+        for (short int i = 0; i < romExtensionsSize; i++)
+            try {
+                if (dirEntry.path().string().substr(dirEntry.path().string().find_last_of(".")) == romExtensions[i])
+                    romPaths.push_back(dirEntry.path().string());
         }
-        catch (...) {
-            &fs::recursive_directory_iterator::increment;
-        }
+        catch (std::out_of_range) { ; }
     }
 }
 
@@ -32,14 +33,13 @@ static inline std::string citraPath(){
             &fs::recursive_directory_iterator::increment;
         }
     }
-    return "aaa";
+    return "Not Found";
 }
 
 int main() {
-        
-    getRoms("D:\\roms\\");
-    std::string executablePath = citraPath();
-    system(std::format("\"\"{}\" \"{}\"",executablePath,romPath).c_str());
+    getRoms("C:\\Users\\Gustavo-Notebook\\Desktop\\");
+    for (int i = 0; i < romPaths.size(); i++) std::cout << romPaths[i] << '\n';
+    
+    return 0;
 
-	return 0;
 }
