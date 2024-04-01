@@ -25,11 +25,11 @@
     <Filter Include="Source Files\Math">
       <UniqueIdentifier>{7579cf31-bb39-4f38-be44-52db901fceee}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Entity\Emulator">
+      <UniqueIdentifier>{5720cfd5-bebf-4358-ad0f-7475cebc3976}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\Audio\audio.cpp">
       <Filter>Source Files\Audio</Filter>
     </ClCompile>
@@ -44,6 +44,12 @@
     </ClCompile>
     <ClCompile Include="src\Math\Math.cpp">
       <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entities\Emulator\emulator.cpp">
+      <Filter>Source Files\Entity\Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +67,9 @@
     </ClInclude>
     <ClInclude Include="src\Math\Math.h">
       <Filter>Source Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Entities\Emulator\emulator.h">
+      <Filter>Source Files\Entity\Emulator</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

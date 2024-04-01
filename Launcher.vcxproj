@@ -73,6 +73,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>C:\Users\Gustavo Santos\Downloads\opencv\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Gustavo Santos\Downloads\opencv\a\lib\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>C:\Users\Gustavo Santos\Downloads\opencv\build\include;$(IncludePath)</IncludePath>
@@ -113,11 +114,12 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>C:\Users\Gustavo Santos\Desktop\Launcher\src;C:\Users\Gustavo Santos\Desktop\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;opencv_highgui490.lib;opencv_core490.lib;opencv_imgproc490.lib;opencv_videoio490.lib;opencv_imgcodecs490.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;opencv_highgui490d.lib;opencv_core490d.lib;opencv_imgproc490d.lib;opencv_videoio490d.lib;opencv_imgcodecs490d.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:\Users\Gustavo Santos\Desktop\Launcher\src\OpenCV;C:\Users\Gustavo Santos\Desktop\SDL2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
@@ -135,6 +137,7 @@
       <OmitFramePointers>true</OmitFramePointers>
       <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -148,6 +151,7 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="src\Audio\audio.cpp" />
+    <ClCompile Include="src\Entities\Emulator\emulator.cpp" />
     <ClCompile Include="src\Entities\Entity.cpp" />
     <ClCompile Include="src\Math\Math.cpp" />
     <ClCompile Include="src\Renderer\RenderWindow.cpp" />
@@ -155,6 +159,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Audio\audio.h" />
+    <ClInclude Include="src\Entities\Emulator\emulator.h" />
     <ClInclude Include="src\Entities\Entity.h" />
     <ClInclude Include="src\Math\Math.h" />
     <ClInclude Include="src\Renderer\RenderWindow.h" />

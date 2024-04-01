@@ -2,12 +2,13 @@
 #include "Entities/Entity.h"
 #include <thread>
 #include <format>
-extern int a=0, b=0;
+
+
+
 RenderWindow::RenderWindow(const char* title, int x, int y)
 	:window(nullptr),renderer(nullptr){
 
 	window = SDL_CreateWindow(title, SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, x, y ,SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE);
-	SDL_GetWindowPosition(window, &a, &b);
 	if (window == nullptr) std::cout << "Window failed to init.Error: " << SDL_GetError() << '\n';
 	renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
@@ -26,7 +27,7 @@ RenderWindow::RenderWindow(const char* title, int x, int y)
 	amountOfFrame = (int)backgroundPlayer.get(cv::CAP_PROP_FRAME_COUNT);
 
 	std::thread(&RenderWindow::processNextFrame,this).detach();
-
+	appName = title;
 }
 
 void RenderWindow::cleanUp() {
@@ -47,7 +48,14 @@ void RenderWindow::clear() {
 	SDL_RenderClear(renderer);
 }
 
-void RenderWindow::render(Entity& entity) {
+void RenderWindow::render(Entity& entity,bool isLeftClickPressed) {
+
+	entity.isItemHovered(mouseX,mouseY);
+	if (entity.isHovered && isLeftClickPressed) {
+		emulator = &entity.emulator;
+		startEmulator(entity.path);
+		resizeEmulator();
+	}
 
 	SDL_Rect source;
 	source.x = entity.getCurrentFrame().x;
@@ -56,10 +64,10 @@ void RenderWindow::render(Entity& entity) {
 	source.h = entity.getCurrentFrame().h;
 
 	SDL_Rect destination;
-	destination.x = entity.getPos().x;
-	destination.y = entity.getPos().y;
-	destination.w = entity.getCurrentFrame().w;
-	destination.h = entity.getCurrentFrame().h;
+	destination.x = entity.getPos().x - entity.isHovered * 20;
+	destination.y = entity.getPos().y - entity.isHovered * 20;
+	destination.w = entity.getCurrentFrame().w + entity.isHovered * 40;
+	destination.h = entity.getCurrentFrame().h + entity.isHovered * 40;
 
 
 	SDL_RenderCopy(renderer, entity.getTexture(), &source, &destination);
@@ -67,6 +75,24 @@ void RenderWindow::render(Entity& entity) {
 
 void RenderWindow::display() {
 	SDL_RenderPresent(renderer);
+}
+
+void RenderWindow::startEmulator(std::string path){
+	emulator->initEmulator(path,appName);
+}
+
+bool RenderWindow::isEmulatorFocused(){
+
+	extern std::string AppName;
+	if (emulator == nullptr) return false;
+	
+	if (!GetWindow(FindWindowA(NULL, (LPCSTR)AppName.c_str()), GW_CHILD)) {
+		emulator = nullptr;
+		return false;
+	}
+	
+	
+	return true; 
 }
 
 int RenderWindow::getRefreshRate() {
@@ -86,6 +112,15 @@ void RenderWindow::renderBackground() {
 
 }
 
+void RenderWindow::resizeEmulator() {
+
+	if (emulator == nullptr) return;
+	
+	int x, y;
+	SDL_GetWindowSize(window, &x, &y);
+	emulator->resize(x, y);
+}
+
 inline void RenderWindow::processNextFrame() {
 
 	const short limitFrameRate = (getRefreshRate()/ 60);
@@ -99,7 +134,7 @@ inline void RenderWindow::processNextFrame() {
 
 		frameCounter++;
 
-		if (frameCounter >= amountOfFrame - 1) {
+		if (frameCounter >= amountOfFrame - 3) {
 			backgroundPlayer.set(cv::CAP_PROP_POS_FRAMES, 0);
 			frameCounter = 0;
 		}
