@@ -6,14 +6,15 @@ class Emulator {
 public:
 
 	Emulator(){}
-	void initEmulator(const std::string& path, const std::string& appName);
+	void initEmulator(const std::string& emulatorPath, const std::string& romPath, const std::string& appName);
 	void closeEmulator();
 
 	void resize(int x, int y);
 	bool isFocused() { return GetForegroundWindow() == subWindowHandle; }
 
 	~Emulator();
-	HWND subWindowHandle;
+	HWND subWindowHandle = nullptr;
+	bool maximized = false;
 
 private:
 	SHELLEXECUTEINFO processInfo;

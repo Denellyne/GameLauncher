@@ -1,0 +1,223 @@
+﻿main.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+main.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+main.obj : error LNK2001: unresolved external symbol _Mix_FreeMusic
+main.obj : error LNK2001: unresolved external symbol ___std_exception_destroy
+main.obj : error LNK2001: unresolved external symbol __imp__abort
+main.obj : error LNK2001: unresolved external symbol __Mbrtowc
+main.obj : error LNK2001: unresolved external symbol __imp__calloc
+main.obj : error LNK2001: unresolved external symbol ___std_system_error_deallocate_message@4
+main.obj : error LNK2001: unresolved external symbol ___std_fs_convert_narrow_to_wide@20
+main.obj : error LNK2001: unresolved external symbol _Mix_OpenAudio
+main.obj : error LNK2001: unresolved external symbol ___std_fs_convert_wide_to_narrow@20
+main.obj : error LNK2001: unresolved external symbol ___std_atomic_notify_all_direct@4
+main.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)
+main.obj : error LNK2001: unresolved external symbol ___std_atomic_wait_direct@16
+main.obj : error LNK2001: unresolved external symbol _SDL_Init
+main.obj : error LNK2001: unresolved external symbol "void __cdecl std::_Throw_Cpp_error(int)" (?_Throw_Cpp_error@std@@YAXH@Z)
+main.obj : error LNK2001: unresolved external symbol "void __cdecl std::_Xbad_alloc(void)" (?_Xbad_alloc@std@@YAXXZ)
+main.obj : error LNK2001: unresolved external symbol "void __cdecl std::_Xout_of_range(char const *)" (?_Xout_of_range@std@@YAXPBD@Z)
+main.obj : error LNK2001: unresolved external symbol "int __cdecl std::_Winerror_map(int)" (?_Winerror_map@std@@YAHH@Z)
+main.obj : error LNK2001: unresolved external symbol "void __cdecl std::_Xlength_error(char const *)" (?_Xlength_error@std@@YAXPBD@Z)
+main.obj : error LNK2001: unresolved external symbol "char const * __cdecl std::_Syserror_map(int)" (?_Syserror_map@std@@YAPBDH@Z)
+main.obj : error LNK2001: unresolved external symbol __imp___beginthreadex
+main.obj : error LNK2001: unresolved external symbol _SDL_Quit
+main.obj : error LNK2001: unresolved external symbol _SDL_Delay
+main.obj : error LNK2001: unresolved external symbol ___std_fs_directory_iterator_open@12
+main.obj : error LNK2001: unresolved external symbol "void __stdcall `eh vector destructor iterator'(void *,unsigned int,unsigned int,void (__thiscall*)(void *))" (??_M@YGXPAXIIP6EX0@Z@Z)
+main.obj : error LNK2001: unresolved external symbol ___std_exception_copy
+main.obj : error LNK2001: unresolved external symbol _Mix_PauseMusic
+main.obj : error LNK2001: unresolved external symbol ___std_fs_directory_iterator_close@4
+main.obj : error LNK2001: unresolved external symbol __Mtx_destroy_in_situ
+main.obj : error LNK2001: unresolved external symbol _atexit
+main.obj : error LNK2001: unresolved external symbol _Mix_ResumeMusic
+main.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+main.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete(void *,unsigned int)" (??3@YAXPAXI@Z)
+main.obj : error LNK2001: unresolved external symbol _TTF_Init
+main.obj : error LNK2001: unresolved external symbol _SDL_GetMouseState
+main.obj : error LNK2001: unresolved external symbol __imp__terminate
+main.obj : error LNK2001: unresolved external symbol ___std_system_error_allocate_message@8
+main.obj : error LNK2001: unresolved external symbol __Cnd_do_broadcast_at_thread_exit
+main.obj : error LNK2001: unresolved external symbol _SDL_PollEvent
+main.obj : error LNK2001: unresolved external symbol _SDL_GetTicks
+main.obj : error LNK2001: unresolved external symbol ___std_fs_directory_iterator_advance@8
+main.obj : error LNK2001: unresolved external symbol _SDL_GetWindowFlags
+main.obj : error LNK2001: unresolved external symbol __Thrd_id
+main.obj : error LNK2001: unresolved external symbol ___std_terminate
+main.obj : error LNK2001: unresolved external symbol _TTF_Quit
+main.obj : error LNK2001: unresolved external symbol ___std_fs_code_page@0
+main.obj : error LNK2001: unresolved external symbol "const type_info::`vftable'" (??_7type_info@@6B@)
+main.obj : error LNK2001: unresolved external symbol __Thrd_join
+main.obj : error LNK2001: unresolved external symbol ___std_fs_get_stats@16
+main.obj : error LNK2001: unresolved external symbol ___std_fs_convert_wide_to_narrow_replace_chars@20
+main.obj : error LNK2001: unresolved external symbol __imp___invalid_parameter_noinfo_noreturn
+main.obj : error LNK2001: unresolved external symbol _Mix_PlayMusic
+main.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall cv::VideoCapture::~VideoCapture(void)" (??1VideoCapture@cv@@UAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol __Cnd_destroy_in_situ
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: unsigned short const * __thiscall std::_Locinfo::_W_Getmonths(void)const " (__imp_?_W_Getmonths@_Locinfo@std@@QBEPBGXZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: unsigned short const * __thiscall std::_Locinfo::_W_Getdays(void)const " (__imp_?_W_Getdays@_Locinfo@std@@QBEPBGXZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: char const * __thiscall std::_Locinfo::_Getmonths(void)const " (__imp_?_Getmonths@_Locinfo@std@@QBEPBDXZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: char const * __thiscall std::_Locinfo::_Getdays(void)const " (__imp_?_Getdays@_Locinfo@std@@QBEPBDXZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: struct _Cvtvec __thiscall std::_Locinfo::_Getcvt(void)const " (__imp_?_Getcvt@_Locinfo@std@@QBE?AU_Cvtvec@@XZ)
+audio.obj : error LNK2001: unresolved external symbol __imp____acrt_iob_func
+audio.obj : error LNK2001: unresolved external symbol _SDL_GetError
+audio.obj : error LNK2001: unresolved external symbol __imp____stdio_common_vfprintf
+audio.obj : error LNK2001: unresolved external symbol _Mix_LoadMUS
+emulator.obj : error LNK2001: unresolved external symbol __imp__FindWindowA@8
+emulator.obj : error LNK2001: unresolved external symbol __imp__TerminateProcess@8
+emulator.obj : error LNK2001: unresolved external symbol __imp__SetWindowLongW@12
+emulator.obj : error LNK2001: unresolved external symbol __imp__GetProcessId@4
+emulator.obj : error LNK2001: unresolved external symbol __imp__SetParent@8
+emulator.obj : error LNK2001: unresolved external symbol __imp__EnumWindows@8
+emulator.obj : error LNK2001: unresolved external symbol __imp__Sleep@4
+emulator.obj : error LNK2001: unresolved external symbol __imp__ShellExecuteExW@4
+emulator.obj : error LNK2001: unresolved external symbol __imp__SetWindowPos@28
+emulator.obj : error LNK2001: unresolved external symbol __imp__IsWindowVisible@4
+emulator.obj : error LNK2001: unresolved external symbol __imp__GetWindow@8
+emulator.obj : error LNK2001: unresolved external symbol __imp__GetWindowThreadProcessId@8
+emulator.obj : error LNK2001: unresolved external symbol __imp__GetWindowLongW@8
+Entity.obj : error LNK2001: unresolved external symbol __imp__fputc
+Entity.obj : error LNK2001: unresolved external symbol ___std_find_trivial_1@12
+Entity.obj : error LNK2001: unresolved external symbol __imp___dsign
+Entity.obj : error LNK2001: unresolved external symbol __imp__fflush
+Entity.obj : error LNK2001: unresolved external symbol __imp__fclose
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Lockit::~_Lockit(void)" (__imp_??1_Lockit@std@@QAE@XZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Lockit::_Lockit(int)" (__imp_??0_Lockit@std@@QAE@H@Z)
+Entity.obj : error LNK2001: unresolved external symbol ___isa_available
+Entity.obj : error LNK2001: unresolved external symbol "private: static class std::locale::_Locimp * __cdecl std::locale::_Getgloballocale(void)" (?_Getgloballocale@locale@std@@CAPAV_Locimp@12@XZ)
+Entity.obj : error LNK2001: unresolved external symbol "private: static class std::locale::_Locimp * __cdecl std::locale::_Init(bool)" (?_Init@locale@std@@CAPAV_Locimp@12@_N@Z)
+Entity.obj : error LNK2001: unresolved external symbol "unsigned __int64 const (* std::__DOUBLE_POW5_SPLIT)[2]" (?__DOUBLE_POW5_SPLIT@std@@3QAY01$$CB_KA)
+Entity.obj : error LNK2001: unresolved external symbol "unsigned __int64 const (* std::__POW10_SPLIT_2)[3]" (?__POW10_SPLIT_2@std@@3QAY02$$CB_KA)
+Entity.obj : error LNK2001: unresolved external symbol "public: static unsigned __int64 const * const std::_General_precision_tables_2<double>::_Special_X_table" (?_Special_X_table@?$_General_precision_tables_2@N@std@@2QB_KB)
+Entity.obj : error LNK2001: unresolved external symbol "unsigned __int64 const (* std::__DOUBLE_POW5_INV_SPLIT)[2]" (?__DOUBLE_POW5_INV_SPLIT@std@@3QAY01$$CB_KA)
+Entity.obj : error LNK2001: unresolved external symbol "public: static unsigned __int64 const * const std::_General_precision_tables_2<double>::_Ordinary_X_table" (?_Ordinary_X_table@?$_General_precision_tables_2@N@std@@2QB_KB)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class std::locale::id std::numpunct<char>::id" (__imp_?id@?$numpunct@D@std@@2V0locale@2@A)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class std::locale::id std::codecvt<char,char,struct _Mbstatet>::id" (__imp_?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A)
+Entity.obj : error LNK2001: unresolved external symbol "void __cdecl std::_Facet_Register(class std::_Facet_base *)" (?_Facet_Register@std@@YAXPAV_Facet_base@1@@Z)
+Entity.obj : error LNK2001: unresolved external symbol "struct _iobuf * __cdecl std::_Fiopen(char const *,int,int)" (?_Fiopen@std@@YAPAU_iobuf@@PBDHH@Z)
+Entity.obj : error LNK2001: unresolved external symbol "public: static unsigned int const * const std::_General_precision_tables_2<float>::_Special_X_table" (?_Special_X_table@?$_General_precision_tables_2@M@std@@2QBIB)
+Entity.obj : error LNK2001: unresolved external symbol "unsigned __int64 const (* std::__POW10_SPLIT)[3]" (?__POW10_SPLIT@std@@3QAY02$$CB_KA)
+Entity.obj : error LNK2001: unresolved external symbol "public: static unsigned int const * const std::_General_precision_tables_2<float>::_Ordinary_X_table" (?_Ordinary_X_table@?$_General_precision_tables_2@M@std@@2QBIB)
+Entity.obj : error LNK2001: unresolved external symbol ___std_fs_remove@4
+Entity.obj : error LNK2001: unresolved external symbol __imp__fgetc
+Entity.obj : error LNK2001: unresolved external symbol __imp__system
+Entity.obj : error LNK2001: unresolved external symbol __purecall
+Entity.obj : error LNK2001: unresolved external symbol __imp___unlock_file
+Entity.obj : error LNK2001: unresolved external symbol __imp___lock_file
+Entity.obj : error LNK2001: unresolved external symbol __imp__fwrite
+Entity.obj : error LNK2001: unresolved external symbol __imp___fdsign
+Entity.obj : error LNK2001: unresolved external symbol __imp__fgetpos
+Entity.obj : error LNK2001: unresolved external symbol __imp__setvbuf
+Entity.obj : error LNK2001: unresolved external symbol __imp___ldsign
+Entity.obj : error LNK2001: unresolved external symbol __imp__free
+Entity.obj : error LNK2001: unresolved external symbol __imp__ungetc
+Entity.obj : error LNK2001: unresolved external symbol __imp__fsetpos
+Entity.obj : error LNK2001: unresolved external symbol __imp__fread
+Entity.obj : error LNK2001: unresolved external symbol __imp___fseeki64
+Entity.obj : error LNK2001: unresolved external symbol __imp___get_stream_buffer_pointers
+Entity.obj : error LNK2001: unresolved external symbol "bool __cdecl cv::imwrite(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::_InputArray const &,class std::vector<int,class std::allocator<int> > const &)" (?imwrite@cv@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV_InputArray@1@ABV?$vector@HV?$allocator@H@std@@@3@@Z)
+Entity.obj : error LNK2001: unresolved external symbol "public: bool __thiscall cv::Mat::empty(void)const " (?empty@Mat@cv@@QBE_NXZ)
+Entity.obj : error LNK2001: unresolved external symbol "public: void __thiscall cv::Mat::copyTo(class cv::_OutputArray const &)const " (?copyTo@Mat@cv@@QBEXABV_OutputArray@2@@Z)
+Entity.obj : error LNK2001: unresolved external symbol "public: __thiscall cv::Mat::Mat(class cv::Mat const &,class cv::Rect_<int> const &)" (??0Mat@cv@@QAE@ABV01@ABV?$Rect_@H@1@@Z)
+Entity.obj : error LNK2001: unresolved external symbol "class cv::Mat __cdecl cv::imread(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?imread@cv@@YA?AVMat@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
+Entity.obj : error LNK2001: unresolved external symbol "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl cv::samples::findFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool,bool)" (?findFile@samples@cv@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV34@_N1@Z)
+Entity.obj : error LNK2001: unresolved external symbol "void __cdecl cv::resize(class cv::_InputArray const &,class cv::_OutputArray const &,class cv::Size_<int>,double,double,int)" (?resize@cv@@YAXABV_InputArray@1@ABV_OutputArray@1@V?$Size_@H@1@NNH@Z)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static unsigned int __cdecl std::codecvt<char,char,struct _Mbstatet>::_Getcat(class std::locale::facet const * *,class std::locale const *)" (__imp_?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SAIPAPBVfacet@locale@2@PBV42@@Z)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::basic_streambuf<char,struct std::char_traits<char> >(void)" (__imp_??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::locale __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::getloc(void)const " (__imp_?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QBE?AVlocale@2@XZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall std::codecvt<char,char,struct _Mbstatet>::unshift(struct _Mbstatet &,char *,char *,char * &)const " (__imp_?unshift@?$codecvt@DDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PAD1AAPAD@Z)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Init(void)" (__imp_?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXXZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Init(char * *,char * *,int *,char * *,char * *,int *)" (__imp_?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAPAD0PAH001@Z)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: __thiscall std::basic_ios<char,struct std::char_traits<char> >::basic_ios<char,struct std::char_traits<char> >(void)" (__imp_??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::basic_istream<char,struct std::char_traits<char> >::basic_istream<char,struct std::char_traits<char> >(class std::basic_streambuf<char,struct std::char_traits<char> > *,bool)" (__imp_??0?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall std::codecvt<char,char,struct _Mbstatet>::in(struct _Mbstatet &,char const *,char const *,char const * &,char *,char *,char * &)const " (__imp_?in@?$codecvt@DDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBD1AAPBDPAD3AAPAD@Z)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall std::codecvt<char,char,struct _Mbstatet>::out(struct _Mbstatet &,char const *,char const *,char const * &,char *,char *,char * &)const " (__imp_?out@?$codecvt@DDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBD1AAPBDPAD3AAPAD@Z)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::eback(void)const " (__imp_?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::gptr(void)const " (__imp_?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::pptr(void)const " (__imp_?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::egptr(void)const " (__imp_?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::gbump(int)" (__imp_?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXH@Z)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::setg(char *,char *,char *)" (__imp_?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::epptr(void)const " (__imp_?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Gndec(void)" (__imp_?_Gndec@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Gninc(void)" (__imp_?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Gnavail(void)const " (__imp_?_Gnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBE_JXZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::pbump(int)" (__imp_?pbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXH@Z)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: char * __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Pninc(void)" (__imp_?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Pnavail(void)const " (__imp_?_Pnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBE_JXZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::basic_ios<char,struct std::char_traits<char> >::setstate(int,bool)" (__imp_?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: char const * __thiscall std::_Yarn<char>::c_str(void)const " (__imp_?c_str@?$_Yarn@D@std@@QBEPBDXZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::~basic_streambuf<char,struct std::char_traits<char> >(void)" (__imp_??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: virtual __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::showmanyc(void)" (__imp_?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: virtual __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::xsgetn(char *,__int64)" (__imp_?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: virtual __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::xsputn(char const *,__int64)" (__imp_?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall std::basic_ios<char,struct std::char_traits<char> >::~basic_ios<char,struct std::char_traits<char> >(void)" (__imp_??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall std::basic_istream<char,struct std::char_traits<char> >::~basic_istream<char,struct std::char_traits<char> >(void)" (__imp_??1?$basic_istream@DU?$char_traits@D@std@@@std@@UAE@XZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::basic_istream<char,struct std::char_traits<char> > & __thiscall std::basic_istream<char,struct std::char_traits<char> >::read(char *,__int64)" (__imp_?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@PAD_J@Z)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall std::ios_base::good(void)const " (__imp_?good@ios_base@std@@QBE_NXZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall std::codecvt_base::always_noconv(void)const " (__imp_?always_noconv@codecvt_base@std@@QBE_NXZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: virtual __thiscall std::locale::facet::~facet(void)" (__imp_??1facet@locale@std@@MAE@XZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: __thiscall std::locale::facet::facet(unsigned int)" (__imp_??0facet@locale@std@@IAE@I@Z)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual class std::_Facet_base * __thiscall std::locale::facet::_Decref(void)" (__imp_?_Decref@facet@locale@std@@UAEPAV_Facet_base@3@XZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::locale::facet::_Incref(void)" (__imp_?_Incref@facet@locale@std@@UAEXXZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::locale::id::operator unsigned int(void)" (__imp_??Bid@locale@std@@QAEIXZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: char const * __thiscall std::_Locinfo::_Gettrue(void)const " (__imp_?_Gettrue@_Locinfo@std@@QBEPBDXZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: char const * __thiscall std::_Locinfo::_Getfalse(void)const " (__imp_?_Getfalse@_Locinfo@std@@QBEPBDXZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: struct lconv const * __thiscall std::_Locinfo::_Getlconv(void)const " (__imp_?_Getlconv@_Locinfo@std@@QBEPBUlconv@@XZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Locinfo::~_Locinfo(void)" (__imp_??1_Locinfo@std@@QAE@XZ)
+Entity.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Locinfo::_Locinfo(char const *)" (__imp_??0_Locinfo@std@@QAE@PBD@Z)
+RenderWindow.obj : error LNK2001: unresolved external symbol __Cnd_signal
+RenderWindow.obj : error LNK2001: unresolved external symbol _SDL_GetDisplayMode
+RenderWindow.obj : error LNK2001: unresolved external symbol _SDL_DestroyTexture
+RenderWindow.obj : error LNK2001: unresolved external symbol _SDL_RenderCopy
+RenderWindow.obj : error LNK2001: unresolved external symbol _SDL_RenderClear
+RenderWindow.obj : error LNK2001: unresolved external symbol _SDL_UpdateTexture
+RenderWindow.obj : error LNK2001: unresolved external symbol __Cnd_init_in_situ
+RenderWindow.obj : error LNK2001: unresolved external symbol _SDL_DestroyRenderer
+RenderWindow.obj : error LNK2001: unresolved external symbol _SDL_GetWindowDisplayIndex
+RenderWindow.obj : error LNK2001: unresolved external symbol __Query_perf_frequency
+RenderWindow.obj : error LNK2001: unresolved external symbol _SDL_DestroyWindow
+RenderWindow.obj : error LNK2001: unresolved external symbol "int __cdecl std::uncaught_exceptions(void)" (?uncaught_exceptions@std@@YAHXZ)
+RenderWindow.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) class std::basic_ostream<char,struct std::char_traits<char> > std::cout" (__imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A)
+RenderWindow.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) class std::basic_ostream<char,struct std::char_traits<char> > std::cerr" (__imp_?cerr@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A)
+RenderWindow.obj : error LNK2001: unresolved external symbol __Cnd_timedwait
+RenderWindow.obj : error LNK2001: unresolved external symbol _SDL_CreateTexture
+RenderWindow.obj : error LNK2001: unresolved external symbol _TTF_RenderText_Solid
+RenderWindow.obj : error LNK2001: unresolved external symbol __Mtx_lock
+RenderWindow.obj : error LNK2001: unresolved external symbol __Mtx_init_in_situ
+RenderWindow.obj : error LNK2001: unresolved external symbol _TTF_CloseFont
+RenderWindow.obj : error LNK2001: unresolved external symbol _TTF_OpenFont
+RenderWindow.obj : error LNK2001: unresolved external symbol __Cnd_wait
+RenderWindow.obj : error LNK2001: unresolved external symbol _IMG_LoadTexture
+RenderWindow.obj : error LNK2001: unresolved external symbol _SDL_FreeSurface
+RenderWindow.obj : error LNK2001: unresolved external symbol _SDL_CreateRenderer
+RenderWindow.obj : error LNK2001: unresolved external symbol _SDL_RenderPresent
+RenderWindow.obj : error LNK2001: unresolved external symbol _SDL_RenderFillRect
+RenderWindow.obj : error LNK2001: unresolved external symbol _SDL_CreateWindow
+RenderWindow.obj : error LNK2001: unresolved external symbol __Query_perf_counter
+RenderWindow.obj : error LNK2001: unresolved external symbol __Thrd_detach
+RenderWindow.obj : error LNK2001: unresolved external symbol _SDL_SetRenderDrawColor
+RenderWindow.obj : error LNK2001: unresolved external symbol __Xtime_get_ticks
+RenderWindow.obj : error LNK2001: unresolved external symbol _SDL_CreateTextureFromSurface
+RenderWindow.obj : error LNK2001: unresolved external symbol __Mtx_unlock
+RenderWindow.obj : error LNK2001: unresolved external symbol _SDL_GetWindowSize
+RenderWindow.obj : error LNK2001: unresolved external symbol "public: __thiscall cv::VideoCapture::VideoCapture(void)" (??0VideoCapture@cv@@QAE@XZ)
+RenderWindow.obj : error LNK2001: unresolved external symbol "public: unsigned int __thiscall cv::Mat::step1(int)const " (?step1@Mat@cv@@QBEIH@Z)
+RenderWindow.obj : error LNK2001: unresolved external symbol "public: __thiscall cv::Mat::Mat(void)" (??0Mat@cv@@QAE@XZ)
+RenderWindow.obj : error LNK2001: unresolved external symbol "void __cdecl cv::setUseOptimized(bool)" (?setUseOptimized@cv@@YAX_N@Z)
+RenderWindow.obj : error LNK2001: unresolved external symbol "void __cdecl cv::setNumThreads(int)" (?setNumThreads@cv@@YAXH@Z)
+RenderWindow.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __int64 __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputn(char const *,__int64)" (__imp_?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z)
+RenderWindow.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: char __thiscall std::basic_ios<char,struct std::char_traits<char> >::widen(char)const " (__imp_?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDD@Z)
+RenderWindow.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::put(char)" (__imp_?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@D@Z)
+RenderWindow.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::sputc(char)" (__imp_?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z)
+RenderWindow.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > * __thiscall std::basic_ios<char,struct std::char_traits<char> >::tie(void)const " (__imp_?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ)
+RenderWindow.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void)" (__imp_?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ)
+RenderWindow.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::flush(void)" (__imp_?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ)
+RenderWindow.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::basic_streambuf<char,struct std::char_traits<char> > * __thiscall std::basic_ios<char,struct std::char_traits<char> >::rdbuf(void)const " (__imp_?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ)
+RenderWindow.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: char __thiscall std::basic_ios<char,struct std::char_traits<char> >::fill(void)const " (__imp_?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDXZ)
+RenderWindow.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::basic_ostream<char,struct std::char_traits<char> > & __thiscall std::basic_ostream<char,struct std::char_traits<char> >::operator<<(class std::basic_ostream<char,struct std::char_traits<char> > & (__cdecl*)(class std::basic_ostream<char,struct std::char_traits<char> > &))" (__imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAV01@AAV01@@Z@Z)
+RenderWindow.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __int64 __thiscall std::ios_base::width(__int64)" (__imp_?width@ios_base@std@@QAE_J_J@Z)
+RenderWindow.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __int64 __thiscall std::ios_base::width(void)const " (__imp_?width@ios_base@std@@QBE_JXZ)
+RenderWindow.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall std::ios_base::flags(void)const " (__imp_?flags@ios_base@std@@QBEHXZ)
+LINK : error LNK2001: unresolved external symbol _mainCRTStartup
+C:\Users\Gustavo Santos\Desktop\Launcher\Release\Launcher.exe : fatal error LNK1120: 222 unresolved externals

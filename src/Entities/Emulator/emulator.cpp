@@ -40,24 +40,28 @@ HWND getWindowHandle(HANDLE processHandle) {
 }
 
 
-void Emulator::initEmulator(const std::string& path, const std::string& appName){
+void Emulator::initEmulator(const std::string& emulatorPath, const std::string& romPath, const std::string& appName){
+	
 
-	std::wstring temp = std::wstring(path.begin(), path.end()).c_str();
-	LPCWSTR convertedPath = temp.c_str();
+	std::wstring tempEmulatorPath = std::wstring(emulatorPath.begin(), emulatorPath.end()).c_str();
+	LPCWSTR convertedEmulatorPath = tempEmulatorPath.c_str();
+
+	std::wstring tempRomPath = std::wstring(romPath.begin(), romPath.end()).c_str();
+	LPCWSTR convertedRomPath = tempRomPath.c_str();
 
 	processInfo.cbSize = sizeof(SHELLEXECUTEINFO);
-	processInfo.lpFile = convertedPath;
+	processInfo.lpFile = convertedEmulatorPath;
 	processInfo.fMask = SEE_MASK_NOCLOSEPROCESS;
 	processInfo.hwnd = NULL;
 	processInfo.lpVerb = NULL;
-	processInfo.lpParameters = NULL;
+	processInfo.lpParameters = convertedRomPath;
 	processInfo.lpDirectory = NULL;
 	processInfo.nShow = SW_SHOWNORMAL;
 	ShellExecuteEx(&processInfo);
 
 	subWindowHandle = getWindowHandle(processInfo.hProcess);
 
-	if (subWindowHandle == 0) {
+	if (subWindowHandle == 0 && emulatorPath != "cmd") {
 		TerminateProcess(processInfo.hProcess, 0);
 		return;
 	}
@@ -72,7 +76,9 @@ void Emulator::initEmulator(const std::string& path, const std::string& appName)
 }
 
 void Emulator::closeEmulator(){
+	if (subWindowHandle == nullptr) return;
 	TerminateProcess(processInfo.hProcess, 0);
+	subWindowHandle = NULL;
 }
 
 Emulator::~Emulator() {
@@ -80,5 +86,10 @@ Emulator::~Emulator() {
 }
 
 void Emulator::resize(int x ,int y){
+	if (maximized) {
+		SetWindowPos(subWindowHandle, NULL, 0, 16, x, y, 0);
+		return;
+	}
+
 	SetWindowPos(subWindowHandle, NULL, 40, 85, x - 80, y - 170, 0);
 }
