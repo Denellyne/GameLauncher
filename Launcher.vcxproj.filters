@@ -71,5 +71,8 @@
     <ClInclude Include="src\Entities\Emulator\emulator.h">
       <Filter>Source Files\Entity\Emulator</Filter>
     </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

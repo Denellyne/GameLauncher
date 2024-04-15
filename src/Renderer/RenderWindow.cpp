@@ -27,6 +27,17 @@ RenderWindow::RenderWindow(const char* title, int x, int y)
 	appName = title;
 }
 
+RenderWindow::~RenderWindow() {
+	TTF_Quit();
+	cleanUp();
+	SDL_Quit();
+
+
+	if (emulator == nullptr) return;
+	emulator->closeEmulator();
+}
+
+
 void RenderWindow::cleanUp() {
 	SDL_DestroyWindow(window);
 	SDL_DestroyRenderer(renderer);

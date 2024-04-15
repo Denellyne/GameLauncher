@@ -1,7 +1,6 @@
 #include "emulator.h"
 #include <Windows.h>
 #include <string>
-#include <iostream>
 
 struct processData {
 	unsigned long processId;
@@ -42,7 +41,6 @@ HWND getWindowHandle(HANDLE processHandle) {
 
 void Emulator::initEmulator(const std::string& emulatorPath, const std::string& romPath, const std::string& appName){
 	
-
 	std::wstring tempEmulatorPath = std::wstring(emulatorPath.begin(), emulatorPath.end()).c_str();
 	LPCWSTR convertedEmulatorPath = tempEmulatorPath.c_str();
 
@@ -76,7 +74,7 @@ void Emulator::initEmulator(const std::string& emulatorPath, const std::string& 
 }
 
 void Emulator::closeEmulator(){
-	if (subWindowHandle == nullptr) return;
+//	if (subWindowHandle == nullptr) return;
 	TerminateProcess(processInfo.hProcess, 0);
 	subWindowHandle = NULL;
 }

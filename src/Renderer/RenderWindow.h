@@ -21,6 +21,7 @@ class RenderWindow {
 
 public:
 	RenderWindow(const char* title,int x,int y);
+	~RenderWindow();
 
 	int getRefreshRate();
 
